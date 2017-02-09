@@ -42,11 +42,7 @@ def processRecord(r,fw):
 
 def upDate(rURL):
     headers = {
-        'X-CP-API-ID': '6576d395',
-        'X-CP-API-KEY': 'db1915a59ef1a9e87b62e384bb141baf',
-        # RO keys
-        'X-ECM-API-ID': '38364587-2faf-493f-98a6-4c29f9fc45cf',
-        'X-ECM-API-KEY': '3263a0543e52f847d822ecc875609fa9534471b0',
+
         'Content-Type': 'application/json' 
     }
     # to update, pull the resource for the router
